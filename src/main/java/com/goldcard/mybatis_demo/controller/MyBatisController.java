@@ -1,13 +1,12 @@
-package com.goldcard.mybatisdemo.controller;
+package com.goldcard.mybatis_demo.controller;
 
-import com.goldcard.mybatisdemo.pojo.User;
-import com.goldcard.mybatisdemo.service.MybatisUserService;
+import com.goldcard.mybatis_demo.pojo.User;
+import com.goldcard.mybatis_demo.service.MybatisUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-/**** imports ****/
 @Controller
 @RequestMapping("/mybatis")
 public class MyBatisController {
@@ -20,4 +19,4 @@ public class MyBatisController {
 	public User getUser(Long id) {
 		return myBatisUserService.getUser(id);
 	}
-}ËÆ
+}

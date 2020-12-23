@@ -1,4 +1,4 @@
-package com.goldcard.mybatis_demo.service.impl;
+package com.goldcard.mybatis_demo.service;
 
 import com.goldcard.mybatis_demo.pojo.Customer;
 
